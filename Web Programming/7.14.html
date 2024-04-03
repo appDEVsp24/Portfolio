@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+        <title>7.14</title>  
+		<script>
+		 
+			var payRate = 10;
+			var overTime = 15;
+			
+			var employee1Name;
+			var employee1Hours;
+			var hours1;
+			var employee1Overtime;
+			var overtime1;
+			var employee1pay;
+			
+			var employee2Name;
+			var employee2Hours;
+			var hours2;
+			var employee2Overtime;
+			var overtime2;
+			var employee2pay;
+			
+			var employee3Name;
+			var employee3Hours;
+			var hours3;
+			var employee3Overtime;
+			var overtime3;
+			var employee3pay;
+		 
+			employee1Name = window.prompt( "Enter first name: " );
+			employee1Hours = window.prompt( "Enter hours worked up to 40: " );
+			hours1 = parseInt( employee1Hours );
+			employee1Overtime = window.prompt( "Enter overtime hours: " );
+			overtime1 = parseInt( employee1Overtime );
+			employee1pay = hours1 * payRate + overTime * overtime1;
+			document.writeln(employee1Name + " Earned " + "$" + employee1pay + " in gross pay this week, " );
+			
+			employee2Name = window.prompt( "Enter second name: " );
+			employee2Hours = window.prompt( "Enter hours worked up to 40: " );
+			hours2 = parseInt( employee2Hours );
+			employee2Overtime = window.prompt( "Enter overtime hours: " );
+			overtime2 = parseInt( employee2Overtime );
+			employee2pay = hours2 * payRate + overTime * overtime2;
+			document.writeln(employee2Name + " Earned " + "$" + employee2pay + " in gross pay this week, " );
+			
+			employee3Name = window.prompt( "Enter third name: " );
+			employee3Hours = window.prompt( "Enter hours worked up to 40: " );
+			hours3 = parseInt( employee3Hours );
+			employee3Overtime = window.prompt( "Enter overtime hours: " );
+			overtime3 = parseInt( employee3Overtime );
+			employee3pay = hours3 * payRate + overTime * overtime3;
+			document.writeln(employee3Name + " Earned " + "$" + employee3pay + " in gross pay this week. " );
+			
+  
+
+		</script>
+	</head><body></body>
+</html>
+
+

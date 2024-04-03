@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>6.18</title>
+      <script>
+
+         var firstNumber; 
+         var secondNumber; 
+		 var thirdNumber;
+         var number1; 
+         var number2; 
+		 var number3; 
+		 var sum;
+		 var average; 
+		 var smallest; 
+		 var largest; 
+
+
+         // read in first number from user as a string
+         firstNumber = window.prompt( "Enter first integer" );
+
+         // read in second number from user as a string
+         secondNumber = window.prompt( "Enter second integer" );
+		 
+		 // read in third number from user as a string
+         thirdNumber = window.prompt( "Enter third integer" );
+
+         // convert numbers from strings to integers
+         number1 = parseInt( firstNumber ); 
+         number2 = parseInt( secondNumber );
+		 number3 = parseInt( thirdNumber );
+         
+		 sum = number1 + number2 + number3; // adds the numbers
+		 average = sum / 3; // finds the average
+		 product = number1 * number2 * number3; // multiplication
+		 
+		 if (number1 < number2 && number1 < number3) {
+			smallest = number1
+			
+         } else if (number2 < number1 && number2 < number3) {
+			smallest = number2
+			
+		 } else {
+			smallest = number3
+		 }
+		 
+		 if (number1 > number2 && number1 > number3) {
+			largest = number1
+			
+         } else if (number2 > number1 && number2 > number3) {
+			largest = number2
+			
+		 } else {
+			largest = number3
+		 }
+			
+		window.alert( "Sum: " + sum + " Average: " + average + " Product: " + 
+		 product + " Smallest: " + smallest + " Largest: " + largest ); // displays the results
+		 
+      </script>
+   </head><body></body>
+</html>

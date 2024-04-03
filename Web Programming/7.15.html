@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+        <title>7.15</title>
+        <script>
+
+			var counter = 1;
+			var number;
+			var largest;
+			while (counter <= 10){
+				number = window.prompt( "Enter single digit integer number " + counter );
+				
+				if (counter == 1) {
+					largest = number
+				
+				} else if (number > largest) {
+					largest = number
+			
+				}
+				
+				counter += 1;
+			}
+		
+			window.alert(" The largest number is " + largest);
+         
+
+        </script>
+	</head><body></body>
+</html> 
+
+
