@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>5.9</title>
+      <style type = "text/css">
+         img
+         {
+            position: relative;
+            -webkit-animation: movingimage linear 10s 1s infinite normal;
+            -moz-animation: movingimage linear 10s 1s infinite normal;
+            animation: movingimage linear 10s 1s infinite normal;
+         }
+         @-webkit-keyframes movingimage 
+         {
+            0%   {left: 0px; top: 0px;}
+            25%  {left: 400px; top: 0px;}
+            50%  {left: 400px; top: 400px;}
+            75%  {left: 0px; top: 400px;}
+            100% {left: 0px; top: 0px;}
+         }
+         @-moz-keyframes movingimage 
+         {
+            0%   {left: 0px; top: 0px;}
+            25%  {left: 400px; top: 0px;}
+            50%  {left: 400px; top: 400px;}
+            75%  {left: 0px; top: 400px;}
+            100% {left: 0px; top: 0px;}
+         }
+         @keyframes movingimage
+         {
+            0%   {left: 0px; top: 0px;}
+            25%  {left: 400px; top: 0px;}
+            50%  {left: 400px; top: 400px;}
+            75%  {left: 0px; top: 400px;}
+            100% {left: 0px; top: 0px;}
+         }
+      </style>
+   </head>
+   <body>
+      <img src = "elephant.jpg" width = "210" height = "130"
+         alt = "Elephant">
+      <div></div>
+   </body>
+</html>
+
