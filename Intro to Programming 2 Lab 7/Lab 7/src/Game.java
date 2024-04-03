@@ -10,9 +10,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 /*
- * Please enter your information.
  * Name: Patrick Mull
- * CWID#: 50305380
  */
 public class Game extends JPanel implements KeyListener{
     public int WIDTH;
