@@ -1,0 +1,1 @@
+This is a portfolio of code tht I wrote for programming classes in the Computer Information Systems degree program. Some of the classes I took include Programming I & II, Data Structures, Database, Systems Analysis and Design,Programming for Mobile Devices, and Object Oriented Programming.
