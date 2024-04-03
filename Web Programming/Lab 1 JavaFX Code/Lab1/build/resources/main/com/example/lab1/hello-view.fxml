@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.fxml.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab1.HelloController">
+    <Label text="Student Registration Menu"/>
+    <Label text="Choose an option:"/>
+    <Button text="Add Students" onAction="#addStudents"/>
+    <Button text="Remove Students" onAction="#removeStudents"/>
+    <Button text="Display Total" onAction="#displayTotal"/>
+    <Button text="Exit" onAction="#exit"/>
+</VBox>
