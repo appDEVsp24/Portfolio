@@ -1,7 +1,5 @@
 """
-PLEASE MAKE SURE TO INSERT YOUR INFORMATION:
-Name: Patrick Mull
-CWID: 50305380
+Patrick Mull
 """
 
 TITLE = 'Mario Mini-Game'
